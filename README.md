@@ -1,2 +1,2 @@
 # grid_css
-ejemplo dwe grid css
+ejemplo de grid css
