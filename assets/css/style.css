@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    }
+     .contenedor {
+        pading: 10px ;
+        border: 10px solid;
+        border-color: rgb(158, 20, 77);
+    }
+
+
+    .encabezado{
+        grid-area: encabezado;
+        background-color: blueviolet;
+    }
+    .navegacion {
+        grid-area: navegacion;
+        background-color: blue;
+    }
+
+
+    .menu_lateral {
+        grid-area: menu_lateral;
+        background-color: beige;
+    }
+
+
+    .articulo {
+        grid-area: articulos;
+        background-color: rgb(40, 7, 7);
+    }
+
+
+    .pie_de_pagina {
+        grid-area: pie_de_pagina;
+        background-color: aqua;
+        color: rgb(215, 199, 14);
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template: 
+        "encabezado" auto
+        "navegacion" auto
+        "menu_lateral" auto
+        "articulo" auto
+        "pie_de_pagina" auto ;
+
+    }
